@@ -39,6 +39,7 @@ namespace Tyuiu.MautalievSI.Sprint2.Task5.V11.Lib
             else
             {
                 n = 1;
+
                 if (m < 12)
                 {
                     m++;
@@ -50,7 +51,7 @@ namespace Tyuiu.MautalievSI.Sprint2.Task5.V11.Lib
                 }
             }
 
-            return $"{g}.{m}.{n}";
+            return $"{n:D2}.{m:D2}.{g}";
         }
     }
 }

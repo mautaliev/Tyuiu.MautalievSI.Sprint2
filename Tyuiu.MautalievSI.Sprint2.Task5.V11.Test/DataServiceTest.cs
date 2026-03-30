@@ -12,10 +12,10 @@ namespace Tyuiu.MautalievSI.Sprint2.Task5.V11.Test
             DataService ds = new DataService();
 
             int g = 2023;
-            int m = 12;
-            int n = 31;
+            int m = 9;
+            int n = 8;
 
-            string wait = "2024.1.1";
+            string wait = "09.09.2023";
             string res = ds.FindDateOfNextDay(g, m, n);
 
             Assert.AreEqual(wait, res);
